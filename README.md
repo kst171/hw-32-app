@@ -37,7 +37,7 @@ agent {
 |----------|----------------|-----------------------------------------------|
 | `label`  | `java21`       | Запускать только на агенте с этим label       |
 
-Pipeline выполняется на постоянном агенте `my-agent`, настроенном в **Manage Jenkins → Nodes**.  
+Pipeline выполняется на постоянном агенте `jenkins-agent-java21`, настроенном в **Manage Jenkins → Nodes**.  
 Образ агента: `jenkins-agent-java21` (JDK 21.0.10, Maven 3.9.13, Ubuntu 22.04).
 
 ---
